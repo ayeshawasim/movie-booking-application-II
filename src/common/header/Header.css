@@ -1,0 +1,36 @@
+.header{
+    position: relative;
+    background-color: #222;
+    height: 36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 16px;
+}
+
+#image{
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: image-spin infinite 8s linear;
+
+    top: 0;
+    left: 0;
+    
+}
+.login-button {
+  float: right;
+}
+
+.booknow-button {
+  float: right;
+  margin-right: 20px;
+ 
+}
+  
+  
+  @keyframes image-spin{
+    from { transform: scaleX(-1); }
+  }
+
+  
+  
